@@ -1,0 +1,14 @@
+pgsql:
+    image: postgres
+    volumes:
+        - ./db/dellstore2-normal-1.0.sql:/docker-entrypoint-initdb.d/dump.sql:ro
+
+# app:
+#     build: ./app
+#     tty: true
+#     volumes:
+#         - ./app:/opt/app
+#     links:
+#         - pgsql:pgsql.host
+#     depends_on:
+#         - "pgsql"

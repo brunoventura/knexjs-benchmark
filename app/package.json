@@ -1,0 +1,17 @@
+{
+  "name": "lib-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.12.6",
+    "pg": "^6.1.0",
+    "node_jdbc": "git+ssh://git@github.com:BritehouseMobile/node_jdbc.git",
+    "jdbc_driver_postgresql": "git+ssh://git@github.com:BritehouseMobile/jdbc_driver_postgresql.git"
+  }
+}
